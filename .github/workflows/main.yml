@@ -46,3 +46,6 @@ jobs:
     - name: Integration test
       run: docker run andresminguez2/github-image-python:latest  
       
+    - name: Debug docker
+      run: docker images 
+      
